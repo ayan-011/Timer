@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body {
+  margin: 0;
+  background: #050505;
+  color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button, input { font: inherit; }
+::selection { background: #fff; color: #000; }
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+.glass {
+  background: rgba(18,18,18,.72);
+  border: 1px solid rgba(255,255,255,.09);
+  backdrop-filter: blur(18px);
+}
