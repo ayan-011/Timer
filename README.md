@@ -1,5 +1,9 @@
 # Time Is Running
 
+
+
+<img width="1442" height="740" alt="Screenshot 2026-09-19 at 11 44 35 PM" src="https://github.com/user-attachments/assets/33092354-06a1-490b-ab79-5fa8e44db864" />
+
 A Next.js app that turns your age into a live experience. Users create an account with their date of birth and can see their life moving in real time.
 
 ## Pages
